@@ -1,5 +1,5 @@
 ```PowerShell
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline
-Start-ManagedFolderAssistant
+Start-ManagedFolderAssistant user@domain.com
 ```
