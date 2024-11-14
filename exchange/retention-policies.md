@@ -5,7 +5,7 @@ Start-ManagedFolderAssistant user@domain.com
 ```
 
 ```PowerShell
-Get-MailboxStatistics scan | fl ItemCount,DeletedItemCount,TotalItemSize,TotalDeletedItemSize
+Get-MailboxStatistics user@domain.com | fl ItemCount,DeletedItemCount,TotalItemSize,TotalDeletedItemSize
 
-Get-MailboxStatistics scan -archive | fl ItemCount,DeletedItemCount,TotalItemSize,TotalDeletedItemSize
+Get-MailboxStatistics user@domain.com -archive | fl ItemCount,DeletedItemCount,TotalItemSize,TotalDeletedItemSize
 ```
